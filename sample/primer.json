@@ -1,0 +1,438 @@
+{
+  "backgroundColor": "#ecebedff",
+  "overrides": "true",
+  "splashType": [
+    "fullscreen",
+    "takeover"
+  ],
+  "labels": {
+    "twentyBucks": {
+      "zLayer": "705",
+      "width": "{creditCircle.width}",
+      "height": "{creditCircle.height}",
+      "x": "{creditCircle.x}",
+      "y": "{creditCircle.y} + 2",
+      "text": "$20",
+      "size": "13",
+      "minimumScaleFactor": "0.5",
+      "adjustsFontSizeToFitWidth": "true",
+      "textColor": "#ffffff",
+      "font": "Avenir-Medium",
+      "alignment": "center",
+      "contentInsets": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "backgroundColor": "#00000000",
+      "backgroundGradient": {
+        "type": "gradient",
+        "baseColor": "#00000000",
+        "colors": [
+          "#f2724f00",
+          "#f2724f00"
+        ],
+        "style": "vertical"
+      },
+      "borderSize": "0",
+      "borderColor": "#E9E9E9",
+      "cornerRadius": "0",
+      "alpha": "1",
+      "shadow": [
+        "#00000000",
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "subtitle": {
+      "width": "84%",
+      "height": "40",
+      "x": "50% - (width/2)",
+      "y": "{primaryCTA.y} - (height) - 4%",
+      "text": "Sign up to claim your credit!",
+      "size": "18",
+      "minimumScaleFactor": "0.5",
+      "adjustsFontSizeToFitWidth": "true",
+      "textColor": "#ffffff",
+      "font": "Avenir-Book",
+      "alignment": "center",
+      "contentInsets": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "backgroundColor": "#00000000",
+      "backgroundGradient": {
+        "type": "gradient",
+        "baseColor": "#00000000",
+        "colors": [
+          "#f2724f00",
+          "#f2724f00"
+        ],
+        "style": "vertical"
+      },
+      "borderSize": "0",
+      "borderColor": "#E9E9E9",
+      "cornerRadius": "0",
+      "alpha": "1",
+      "shadow": [
+        "#00000000",
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "cardHeader": {
+      "zLayer": "706",
+      "width": "80%",
+      "height": "24",
+      "x": "50% - (width/2)",
+      "y": "{profileImage.y} + {profileImage.height} + 3%",
+      "text": "Ben gave you $20",
+      "size": "18",
+      "minimumScaleFactor": "0.5",
+      "adjustsFontSizeToFitWidth": "true",
+      "textColor": "#000000",
+      "font": "Avenir-Black",
+      "alignment": "center",
+      "contentInsets": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "backgroundColor": "#00000000",
+      "backgroundGradient": {
+        "type": "gradient",
+        "baseColor": "#00000000",
+        "colors": [
+          "#f2724f00",
+          "#f2724f00"
+        ],
+        "style": "vertical"
+      },
+      "borderSize": "0",
+      "borderColor": "#E9E9E9",
+      "cornerRadius": "0",
+      "alpha": "1",
+      "shadow": [
+        "#00000000",
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "cardBody": {
+      "zLayer": "707",
+      "width": "200",
+      "height": "44",
+      "x": "50% - (width/2)",
+      "y": "{cardHeader.y} + {cardHeader.height} + 1%",
+      "text": "towards your first Kitty Clothes purchase!",
+      "size": "18",
+      "minimumScaleFactor": "0.5",
+      "adjustsFontSizeToFitWidth": "true",
+      "textColor": "#000000",
+      "font": "Avenir-Light",
+      "alignment": "center",
+      "contentInsets": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "backgroundColor": "#00000000",
+      "backgroundGradient": {
+        "type": "gradient",
+        "baseColor": "#00000000",
+        "colors": [
+          "#f2724f00",
+          "#f2724f00"
+        ],
+        "style": "vertical"
+      },
+      "borderSize": "0",
+      "borderColor": "#E9E9E9",
+      "cornerRadius": "0",
+      "alpha": "1",
+      "shadow": [
+        "#00000000",
+        1,
+        1,
+        1,
+        0
+      ]
+    }
+  },
+  "images": {
+    "logo": {
+      "width": "85%",
+      "height": "6%",
+      "x": "50% - (width/2)",
+      "y": "5%",
+      "image": "http://cdn.goprimer.com/uploads/pmr040633dd713b2-9972-4b56-bee1-05c0834e3ea2-kittyclothes_logo@3x.png",
+      "contentMode": "aspectFit",
+      "borderSize": "0",
+      "borderColor": "#000000",
+      "cornerRadius": "0",
+      "alpha": "1",
+      "required": "true",
+      "backgroundGradient": {
+        "colors": [
+          "#00000000",
+          "#00000000"
+        ],
+        "baseColor": "#00000000",
+        "type": "gradient",
+        "style": "vertical"
+      },
+      "backupImage": "",
+      "tempImage": ""
+    },
+    "profileImage": {
+      "zLayer": "701",
+      "width": "{textCard.width}*.4",
+      "height": "(width)",
+      "x": "50% - (width/2)",
+      "y": "{textCard.y} - (height/2)",
+      "image": "http://cdn.goprimer.com/uploads/pmr096519fe4a078c-d5d5-4752-9ae7-aadbfa689e30-newAvatar.png",
+      "contentMode": "aspectFill",
+      "borderSize": "3",
+      "borderColor": "#ffffff",
+      "cornerRadius": "52",
+      "alpha": "1",
+      "required": "true",
+      "backgroundGradient": {
+        "colors": [
+          "#ffffff00",
+          "#ffffff00"
+        ],
+        "baseColor": "#00000000",
+        "type": "gradient",
+        "style": "vertical"
+      },
+      "backupImage": "",
+      "tempImage": ""
+    },
+    "background": {
+      "borderColor": "rgba(0,0,0,0)",
+      "alpha": "1",
+      "image": "http://cdn.goprimer.com/uploads/pmr08789312c2e50fa-df14-47b0-b934-3527a5d683f3-2.png",
+      "width": "100%",
+      "height": "100%",
+      "x": "0",
+      "y": "0",
+      "required": "true",
+      "backupImage": "",
+      "tempImage": "",
+      "contentMode": "aspectFill"
+    }
+  },
+  "buttons": {
+    "primaryCTA": {
+      "width": "82%",
+      "height": "50",
+      "x": "50% - (width/2)",
+      "y": "{secondaryCTA.y} - height - 16",
+      "cornerRadius": "25",
+      "states": {
+        "normal": {
+          "text": "SIGN UP",
+          "size": "16",
+          "textColor": "#FFFFFF",
+          "font": "Avenir-Black",
+          "style": "normal",
+          "alignment": "center",
+          "backgroundColor": "#00000000",
+          "backgroundGradient": {
+            "type": "gradient",
+            "baseColor": "#00000000",
+            "colors": [
+              "#22b6e7ff",
+              "#22b6e7ff"
+            ],
+            "style": "vertical"
+          },
+          "borderSize": "0",
+          "borderColor": "#25305e00",
+          "alpha": "1",
+          "image": "",
+          "shadow": [
+            "#00000000",
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        "pressed": {
+          "backgroundColor": "#00000000",
+          "backgroundGradient": {
+            "type": "gradient",
+            "baseColor": "#00000000",
+            "colors": [
+              "#1ea3cfff",
+              "#1ea3cfff"
+            ],
+            "style": "vertical"
+          },
+          "borderSize": "0",
+          "borderColor": "#25305e00",
+          "alpha": "1"
+        }
+      },
+      "onClick": {
+        "params": {
+          "closeSelf": "true",
+          "url": "kittyclothes://products/parka",
+          "flowName": "SIGNUP"
+        },
+        "func": "startFlow"
+      }
+    },
+    "secondaryCTA": {
+      "width": "82%",
+      "height": "50",
+      "x": "50% - (width/2)",
+      "y": "100% - height - 16",
+      "cornerRadius": "25",
+      "states": {
+        "normal": {
+          "text": "Connect with Facebook",
+          "size": "14",
+          "textColor": "#d3d9dc",
+          "font": "Avenir-Light",
+          "style": "normal",
+          "alignment": "center",
+          "backgroundColor": "#00000000",
+          "backgroundGradient": {
+            "colors": [
+              "#ffffff00",
+              "#ffffff00"
+            ],
+            "baseColor": "#00000000",
+            "type": "gradient",
+            "style": "vertical"
+          },
+          "borderSize": "2",
+          "borderColor": "#898f95",
+          "alpha": "1",
+          "shadow": [
+            "#00000000",
+            1,
+            1,
+            1,
+            0
+          ],
+          "image": "http://cdn.goprimer.com/icons/pmr04404f3f42d7b-3d8e-4ba2-9015-e007140bf689-facebook3.png",
+          "leftImage": "http://cdn.goprimer.com/icons/pmr04404f3f42d7b-3d8e-4ba2-9015-e007140bf689-facebook3.png",
+          "contentMode": "left"
+        },
+        "pressed": {
+          "borderSize": "1",
+          "alpha": "1",
+          "backgroundGradient": {
+            "colors": [
+              "#ffffff00",
+              "#ffffff00"
+            ],
+            "baseColor": "#00000000",
+            "type": "gradient",
+            "style": "vertical"
+          }
+        }
+      },
+      "onClick": {
+        "params": {
+          "successAction": {
+            "params": {
+              "closeSelf": "true"
+            },
+            "func": "close"
+          },
+          "closeSelf": "false"
+        },
+        "func": "loginFacebook"
+      }
+    }
+  },
+  "shapes": {
+    "backgroundFilter": {
+      "width": "100%",
+      "height": "100%",
+      "x": "0",
+      "y": "0",
+      "color": "#00000000",
+      "backgroundGradient": {
+        "colors": [
+          "#0000007f",
+          "#0000007f"
+        ],
+        "baseColor": "#00000000",
+        "type": "gradient",
+        "style": "vertical"
+      },
+      "borderSize": "0",
+      "borderColor": "#000000",
+      "cornerRadius": "0",
+      "alpha": "1"
+    },
+    "textCard": {
+      "zLayer": "700",
+      "width": "82%",
+      "height": "width*.7",
+      "x": "50% - (width/2)",
+      "y": "{logo.y} + {logo.height} + 18%",
+      "color": "#00000000",
+      "backgroundGradient": {
+        "colors": [
+          "#ffffffff",
+          "#ffffffff"
+        ],
+        "baseColor": "#00000000",
+        "type": "gradient",
+        "style": "vertical"
+      },
+      "borderSize": "0",
+      "borderColor": "#f2724f",
+      "cornerRadius": "3",
+      "alpha": "1"
+    },
+    "creditCircle": {
+      "zLayer": "702",
+      "width": "{profileImage.width}*.35",
+      "height": "width",
+      "x": "50% + {profileImage.width}*.25 - (width*.25)",
+      "y": "{profileImage.y} + {profileImage.height}*.25 - (height*.75)",
+      "color": "#00000000",
+      "backgroundGradient": {
+        "colors": [
+          "#f2724fff",
+          "#f2724fff"
+        ],
+        "baseColor": "#00000000",
+        "type": "gradient",
+        "style": "vertical"
+      },
+      "borderSize": "1",
+      "borderColor": "#ef553b",
+      "cornerRadius": "circle",
+      "alpha": "1"
+    }
+  },
+  "backgroundGradient": {
+    "colors": [
+      "#ffffffff",
+      "#ffffffff"
+    ],
+    "baseColor": "#00000000",
+    "type": "gradient",
+    "style": "vertical"
+  }
+}
